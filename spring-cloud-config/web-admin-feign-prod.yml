@@ -14,7 +14,10 @@ feign:
     enabled: true
 server:
   port: 8766
-
+boot:
+  admin:
+    client:
+      url: http://localhost:8084
 eureka:
   client:
     serviceUrl:
