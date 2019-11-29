@@ -1,11 +1,18 @@
+#spring:
+#  application:
+#    name: hello-spring-cloud-service-admin
+#
+#server:
+#  port: 8760
+#
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
 spring:
-  application:
-    name: hello-spring-cloud-service-admin
-
-server:
-  port: 8760
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: server-client
+      label: master
+      profile: dev

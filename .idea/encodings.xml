@@ -9,5 +9,6 @@
     <file url="file://$PROJECT_DIR$/hello-spring-cloud-web-admin-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-spring-cloud-web-admin-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-zipkin" charset="UTF-8" />
   </component>
 </project>

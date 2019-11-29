@@ -6,11 +6,11 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/topsale/spring-cloud-config
-          search-paths: respo
+          uri: https://github.com/juno4717/hello-spring-cloud
+          search-paths: spring-cloud-config
           username: juno4717
           password: 0321123qQ
-
+          skip-ssl-validation: true
 server:
   port: 8888
 
