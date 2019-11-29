@@ -1,6 +1,10 @@
 spring:
   application:
     name: hello-spring-cloud-config-client
+boot:
+  admin:
+    client:
+      url: http://localhost:8084
   cloud:
     config:
       uri: http://localhost:8888
@@ -11,10 +15,6 @@ zipkin:
   base-url: http://localhost:9411
 server:
   port: 8889
-boot:
-  admin:
-    client:
-      url: http://localhost:8084
 eureka:
   client:
     serviceUrl:

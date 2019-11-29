@@ -1,6 +1,10 @@
 spring:
   application:
     name: hello-spring-cloud-web-admin-feign
+boot:
+  admin:
+    client:
+      url: http://localhost:8084
   thymeleaf:
     cache: false
     mode: LEGACYHTML5
@@ -14,10 +18,6 @@ feign:
     enabled: true
 server:
   port: 8765
-boot:
-  admin:
-    client:
-      url: http://localhost:8084
 eureka:
   client:
     serviceUrl:
